@@ -4,7 +4,7 @@ import Kviews from './kviews';
 // For example, my_first_app__myKustomerOrg01_01
 export default {
     app: 'app_expert_testing',
-    version: '0.0.1',
+    version: '1.0.1',
     appDetails: { // note: the object and all it's fields are optional, but will be used to fill out the app store listing within Kustomer
         appDeveloper: {
             name: 'JZimms',
@@ -12,11 +12,11 @@ export default {
             supportEmail: 'example@email.com',
         },
         externalPlatform: {
-            name: '<<Insert the name of your platform/company>>',
-            website:'<<Insert the url for your platform/company>>',
+            name: 'No',
+            website:'No@no.no',
         },
         documentationLinks: [{
-            title: '<<Insert the display title for your documentation>>',
+            title: 'View the ReadME here!',
             url: 'www.example.com',
         }],
     },
