@@ -4,26 +4,27 @@ import Action from './action'
 
 export default {
     "app": "ecommstore",
-    "version": "0.0.1",
+    "version": "0.0.4",
     "title": "E-comm Store",
     "actions": [{
       "name": "kustomer.app.ecommstore.store.refundOrder",
       "description": "Refund Order",
-      "type": "rest_api",
+      "type": "rest_api", // WF Actions are ALWAYS REST API actions
       "appSettings": {
         "authToken": {
-            "key": "ecommstore.default.authToken"
+            "key": "ecommstore.default.authToken" // Stored in .env normally?
         }
       },
       "inputTemplate": {
-        "uri": "https://api.ecommstore.com/orders/{{orderId}},
+        "uri": "https://api.ecommstore.com/orders/{{orderId}}", // orderId also references values from inputSchema property. Value is blank in example Action.
         "method": "POST",
-        "headers": {
-          "authorization": "Bearer {{authToken}}"
+        "headers": { // values from the appSettings object are available here
+          "authorization": "Bearer {{authToken}}" // appSettings.authToken
           },
-        "qs": "/#querystring",
+        "qs": "/#querystring", // Replaces with value of the inputSchema property below
+        "orderId": "/#orderId",
         "data": {
-          refund: true
+          refund: true // The raw JSON of the request body for the API request
          },
         "json": true
       },
@@ -34,13 +35,15 @@ export default {
         "properties": {
           "querystring": {
             "type": "string",
+          }, "orderId": {
+            "type": "string"
           }
         },
-        "required": [],
+        "required": ["orderId"],
         "additionalProperties": false
       },
       "outputTemplate": {
-        "response": "/#response"
+        "response": "/#response",
         "body": "/#body"
       },
       "outputSchema": {
@@ -55,5 +58,6 @@ export default {
         },
         "additionalProperties": false
       }
-    }]
+    }],
+
   }

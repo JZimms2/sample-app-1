@@ -1,1 +1,302 @@
-{"level":30,"time":1656087106943,"pid":1,"hostname":"12a467d4ae1e","name":"event","dd":{"trace_id":"5488816442342759455","span_id":"1817271886875076854","service":"sobjects","version":"release-v0.1.972"},"fullBodyLength":9896,"body":{"id":"62b5e242f3ced41cb57beaf6","name":"kustomer.conversation.update","partition":"5d2f98fec7a28e001a2cfe04","body":{"id":"62b5e2428ddc46655990ec45","name":"kustomer.conversation.update","org":"5d2f98fec7a28e001a2cfe04","partition":"5d2f98fec7a28e001a2cfe04","data":{"type":"conversation","id":"62b5c879310d6af317e6cc47","attributes":{"externalId":"62b5c8772fe9e3000bbe971c","name":"Pedido incompleto","preview":"Já identificamos os dados do seu pedido e do parceiro em questão e vamos encaminhar o caso internamente, de acordo com as nossas políticas. Garantimos que já estamos solucionando qualquer problema interno que possa ter colaborado com isso. Faremos o possível para que não ocorra novamente! nnQualquer dúvida, seguimos a disposição. Agradecemos sua compreensão e sentimos muito por qualquer inconveniente.nnConte sempre com a gente! O nosso time de suporte está sempre à disposição. nFoi uma satisfação te atender, te desejo um dia maravilhoso pra você e toda a sua família.n​nnUm abraço, Equipe Rappi.🧡","channels":"chat","status":"done","snooze":{"status":"canceled","statusAt":"2022-06-24T15:16:56.839Z","time":"3021-06-24T15:12:26.054Z"},"messageCount":20,"noteCount":10,"satisfaction":0,"satisfactionLevel":{"sentByTeams":,"answers":},"createdAt":"2022-06-24T14:21:45.992Z","updatedAt":"2022-06-24T16:11:46.929Z","modifiedAt":"2022-06-24T16:08:45.277Z","lastActivityAt":"2022-06-24T16:08:47.545Z","spam":false,"ended":true,"endedAt":"2022-06-24T16:08:44.043Z","endedReason":"user_ended","endedByType":"user","tags":"5dfa71fd0e3439001b25fa5a","5dd545470ed970001b275f51","5dd545470ed970001b275f52","5db54a24507511001bf729ed","5dd5496992819e001bf4c021","5db68a27dcc82e001b84b4bf","5dd5496992819e001bf4c022","5dd5496992819e001bf4c023","5dd5496992819e001bf4c024","5de2c8fdc38659001bff07eb","5e988402b04fc40012010aaa","5dd4c629b520a8001bbcf005","629a3227c9f9f4ffc0f7e9a0","5e7e40ca9e26060019e32878","629a3241c4b5a61b7afca3ca","suggestedTags":,"predictions":,"suggestedShortcuts":,"firstMessageIn":{"id":"62b5c87ad4ec0d2a95cf5a52","sentAt":"2022-06-24T14:21:43.345Z","createdAt":"2022-06-24T14:21:46.418Z","directionType":"initial-in","channel":"chat","meta":{"from":"dmcriaconteudo@gmail.com","to":null}},"firstMessageOut":{"createdByTeams":"5db1dd0f4307c2001bcd1dc4","5db1dfd6d1d029001abfeb76","5fb48aff441b7f76fd17931f","5fb4b2bb081c74f6087f3b02","5fb66a5286bc0c3cd7d55da6","5fd643e6b12921bd57899019","id":"62b5c90dc14c45d5113c0685","sentAt":"2022-06-24T14:24:31.481Z","createdAt":"2022-06-24T14:24:31.596Z","channel":"chat","directionType":"response-out","createdBy":"608b26d3ec40680019599724"},"lastMessageIn":{"id":"62b5d5687f5ea40d0d9b5d85","sentAt":"2022-06-24T15:16:56.764Z","createdAt":"2022-06-24T15:16:56.839Z","meta":null,"channel":"chat"},"lastMessageOut":{"id":"62b5e07972de1c3703eb094e","sentAt":"2022-06-24T16:08:44.450Z","createdAt":"2022-06-24T16:08:44.594Z","createdBy":"6021b19a4913047db03d8bc7"},"lastMessageAt":"2022-06-24T16:08:44.450Z","assignedUsers":"6021b19a4913047db03d8bc7","assignedTeams":"5db1dd0f4307c2001bcd1dc4","firstResponse":{"createdByTeams":"5db1dd0f4307c2001bcd1dc4","5db1dfd6d1d029001abfeb76","5fb48aff441b7f76fd17931f","5fb4b2bb081c74f6087f3b02","5fb66a5286bc0c3cd7d55da6","5fd643e6b12921bd57899019","assignedTeams":"5db1dd0f4307c2001bcd1dc4","assignedUsers":"608b26d3ec40680019599724","id":"62b5c90dc14c45d5113c0685","time":165489,"businessTime":165489,"createdAt":"2022-06-24T14:24:31.596Z","createdBy":"608b26d3ec40680019599724","sentAt":"2022-06-24T14:24:31.481Z","responseTime":165489},"firstResponseSinceLastDone":{"createdByTeams":"5db1dd0f4307c2001bcd1dc4","5db1dfd6d1d029001abfeb76","5fb48aff441b7f76fd17931f","5fb4b2bb081c74f6087f3b02","5fb66a5286bc0c3cd7d55da6","5fd643e6b12921bd57899019","assignedTeams":"5db1dd0f4307c2001bcd1dc4","assignedUsers":"608b26d3ec40680019599724","id":"62b5c90dc14c45d5113c0685","time":165489,"businessTime":165489,"createdAt":"2022-06-24T14:24:31.596Z","createdBy":"608b26d3ec40680019599724","sentAt":"2022-06-24T14:24:31.481Z","responseTime":165489},"lastResponse":{"createdByTeams":"5db1dd0f4307c2001bcd1dc4","5db1dfd6d1d029001abfeb76","5fb48aff441b7f76fd17931f","5fb4b2bb081c74f6087f3b02","5fb66a5286bc0c3cd7d55da6","5fd643e6b12921bd57899019","assignedTeams":"5db1dd0f4307c2001bcd1dc4","assignedUsers":"6021b19a4913047db03d8bc7","id":"62b5d68842c20e6f7326c2df","time":309991,"businessTime":309991,"createdAt":"2022-06-24T15:22:06.892Z","createdBy":"6021b19a4913047db03d8bc7"},"firstDone":{"createdByTeams":,"assignedTeams":,"assignedUsers":,"time":67927,"businessTime":67927,"createdAt":"2022-06-24T14:22:53.919Z","createdBy":"5dc5f2806fd31a00156f0fe0","noteCount":5,"messageCount":1,"messageCountByChannel":{"chat":1},"outboundMessageCount":0,"outboundMessageCountByChannel":null,"lastMessageDirection":"in","lastMessageDirectionType":"initial-in"},"lastDone":{"createdByTeams":"5db1dd0f4307c2001bcd1dc4","5db1dfd6d1d029001abfeb76","5fb48aff441b7f76fd17931f","5fb4b2bb081c74f6087f3b02","5fb66a5286bc0c3cd7d55da6","5fd643e6b12921bd57899019","assignedTeams":"5db1dd0f4307c2001bcd1dc4","assignedUsers":"6021b19a4913047db03d8bc7","time":6418051,"businessTime":6418051,"createdAt":"2022-06-24T16:08:44.043Z","createdBy":"6021b19a4913047db03d8bc7","noteCount":8,"messageCount":19,"messageCountByChannel":{"chat":19},"outboundMessageCount":8,"outboundMessageCountByChannel":{"chat":8},"lastMessageDirection":"out","lastMessageDirectionType":"followup-out"},"doneCount":2,"snoozeCount":1,"direction":"in","custom":{"countryStr":"br","automaticSolutionTypeTree":"auto_accept","ticketAutomationSolutionTypeStr":"auto_accept","operationTeamStr":"BR","automatizacionTree":"valentina_agent","authorIdStr":"3817410054","authorTypeStr":"end_users","cicloDeVidaDelTicketEnTechStr":"automation_finished","orderIdObligatorioStr":"148288541","languageStr":"pt-BR;q=1.0","chatIdStr":"62b5c876c59d190009628a41","chatTypeStr":"support_non_live_chats/user","tipoYCategoriaEndUserTree":"sn_org_mp.sn_org_pa.sn_org_pi","hcVersionStr":"1","articleIdStr":"5d5f2ba0bd60b10013bf16c2","brokenPackageStr":"","churnStr":"Low","financeUserTypeStr":"HQ_RET","isPrimeBool":true,"lookAlikeScoreNum":66.1922073237968,"loyaltyStr":"diamond","orderCityStr":"Grande São Paulo","orderDebtNum":0,"orderHasDebtBool":false,"orderHasHandshakeBool":true,"orderVerticalStr":"express_picker","paymentMethodStr":"cc","preExecutionBool":true,"primePlanStr":"monthly-plus","prioritizationScoreNum":70,"publishPreExecutionBool":true,"rfmSegmentStr":"Diamond","storeNameStr":"Emporium SP, Pedroso Alvarenga","storeTypeStoreStr":"super","totalDebtNum":0,"userHandshakeStateStr":"Successful","verticalGroupStr":"CPGs","verticalStr":"express_picker","encuestaMiTiendaBool":true,"externalIdStr":"220624142147320","miTiendaEmailPartnerStr":"dmcriaconteudo@gmail.com","tipoYCategoriaHcOriginalStr":"sn_org_mp.sn_org_pa.sn_org_pi","oneScreenProcessTree":"pedido_incompleto","ticketSubmittedBool":true,"ticketAutomationCompensationValueNum":47.35,"ticketAutomationExitRuleStr":"rc_refund_v3_is_pilot_auto_accept","ticketAutomationRefundMethodStr":"cc_","furtherHelpStr":"no_want_chat_with_agent","hourDateReopenStr":"2022-06-24T14:23:22.430Z","reopenCountNum":1,"firstAssignmentTimeAt":"2022-06-24T14:23:26.693Z","userProcessTipificationTree":"sn_org_iodo_1.sn_org_mp_2.sn_org_tref2","satisfactionSentBool":true},"lastMessageDirection":"out","outboundMessageCount":9,"inboundMessageCount":11,"rev":74,"priority":3,"defaultLang":"pt","locale":null,"totalSnooze":{"businessTime":269829,"time":269829},"totalDone":{"businessTime":26834,"time":26834},"totalOpen":{"businessTime":6120962,"businessTimeBySchedule":6120962,"businessTimeByScheduleSinceLastDone":6053461,"businessTimeSinceLastDone":6053461,"time":6120962,"timeSinceLastDone":6053461},"roleGroupVersions":,"accessOverride":,"sla":{"name":"Non live user","version":6,"matchedAt":"2022-06-24T14:23:20.753Z","metrics":{"totalConversationOpenTime":{"satisfiedAt":"2022-06-24T16:08:44.043Z"}},"breached":false,"status":"done","summary":{"satisfiedAt":"2022-06-24T16:08:44.043Z"}},"assistant":{"fac":{"reasons":},"assistantId":},"phase":"active"},"relationships":{"messages":{"links":{"self":"/v1/conversations/62b5c879310d6af317e6cc47/messages"}},"modifiedBy":{"links":{"self":"/v1/users/5dc5f2806fd31a00156f0fe0"},"data":{"type":"user","id":"5dc5f2806fd31a00156f0fe0"}},"org":{"links":{"self":"/v1/orgs/5d2f98fec7a28e001a2cfe04"},"data":{"type":"org","id":"5d2f98fec7a28e001a2cfe04"}},"customer":{"data":{"type":"customer","id":"5f141bf440306a0019ddfefe"},"links":{"self":"/v1/customers/5f141bf440306a0019ddfefe"}},"endedBy":{"data":{"type":"user","id":"6021b19a4913047db03d8bc7"},"links":{"self":"/v1/users/6021b19a4913047db03d8bc7"}},"subStatus":{"data":{"type":"conversation_sub_status","id":"5e7e6c93bf3f960019e52a9e"},"links":{"self":"/v1/conversations/sub-statuses/5e7e6c93bf3f960019e52a9e"}},"sla":{"data":{"type":"sla","id":"5de6bd4b43c52a001c1849ba"},"links":{"self":"/v1/slas/5de6bd4b43c52a001c1849ba"}},"slaVersion":{"data":{"type":"sla_version","id":"617182f249f29c6cb70eb902"}},"queue":{"data":{"type":"queue","id":"6206a38538b571f3da0ca97a"},"links":{"self":"/v1/routing/queues/6206a38538b571f3da0ca97a"}},"brand":{"data":{"type":"brand","id":"5daf791a124be4f2960cb0c4"},"links":{"self":"/v1/brands/5daf791a124be4f2960cb0c4"}}},"links":{"self":"/v1/conversations/62b5c879310d6af317e6cc47"}},"createdAt":"2022-06-24T16:11:46.941Z","changes":{"attributes":{"noteCount":{"op":"replace","before":9,"after":10},"updatedAt":{"op":"replace","before":"2022-06-24T16:11:46.840Z","after":"2022-06-24T16:11:46.929Z"},"rev":{"op":"replace","before":73,"after":74}},"relationships":{}},"persist":false,"client":"workflow","sourceId":"60c26e7c7abe770019e84805","sourceType":"workflow"},"publishedAt":"2022-06-24T16:11:46.941Z","version":3},"producer":"SNSEventProducer"}
+{
+  "level": 30,
+  "time": 1656683730474,
+  "pid": 1,
+  "hostname": "8c97bb7c7b14",
+  "name": "event",
+  "dd": {
+    "trace_id": "7482205711288122690",
+    "span_id": "6380953551466855004",
+    "service": "sobjects",
+    "version": "release-v0.1.975"
+  },
+  "fullBodyLength": 4721,
+  "body": {
+    "id": "62befcd282572f265645ee8e",
+    "name": "kustomer.conversation.update",
+    "partition": "61a7fbd1cc534fe8759ee230",
+    "body": {
+      "id": "62befcd2236ea175a8a55928",
+      "name": "kustomer.conversation.update",
+      "org": "61a7fbd1cc534fe8759ee230",
+      "partition": "61a7fbd1cc534fe8759ee230",
+      "data": {
+        "type": "conversation",
+        "id": "62befcd1febcf9618835dac9",
+        "attributes": {
+          "name": "Testing",
+          "preview": "Test",
+          "channels": "email",
+          "status": "open",
+          "messageCount": 1,
+          "noteCount": 0,
+          "satisfaction": 0,
+          "satisfactionLevel": {
+            "sentByTeams": ,
+            "answers":
+          },
+          "createdAt": "2022-07-01T13:55:29.198Z",
+          "updatedAt": "2022-07-01T13:55:30.460Z",
+          "lastActivityAt": "2022-07-01T13:55:29.629Z",
+          "spam": false,
+          "ended": false,
+          "importedAt": null,
+          "tags": ,
+          "suggestedTags": ,
+          "predictions": ,
+          "suggestedShortcuts": ,
+          "firstMessageIn": {
+            "id": "62befcd0464af185dd56205e",
+            "sentAt": "2022-07-01T13:55:24.000Z",
+            "createdAt": "2022-07-01T13:55:29.242Z",
+            "directionType": "initial-in",
+            "channel": "email",
+            "meta": {
+              "subject": "Testing",
+              "from": "jzimms@fb.com",
+              "to": "support@zzz-josh-shakira.mail.kustomerapp.com",
+              "cc": ,
+              "recipient": {
+                "email": "support@zzz-josh-shakira.mail.kustomerapp.com",
+                "mailboxHash": ""
+              }
+            }
+          },
+          "firstMessageOut": {
+            "createdByTeams":
+          },
+          "lastMessageIn": {
+            "id": "62befcd0464af185dd56205e",
+            "sentAt": "2022-07-01T13:55:24.000Z",
+            "createdAt": "2022-07-01T13:55:29.242Z",
+            "meta": {
+              "subject": "Testing",
+              "from": "jzimms@fb.com",
+              "to": "support@zzz-josh-shakira.mail.kustomerapp.com",
+              "cc": ,
+              "recipient": {
+                "email": "support@zzz-josh-shakira.mail.kustomerapp.com",
+                "mailboxHash": ""
+              }
+            },
+            "channel": "email"
+          },
+          "lastMessageAt": "2022-07-01T13:55:24.000Z",
+          "lastMessageUnrespondedTo": {
+            "id": "62befcd0464af185dd56205e",
+            "sentAt": "2022-07-01T13:55:24.000Z",
+            "createdAt": "2022-07-01T13:55:29.242Z"
+          },
+          "lastMessageUnrespondedToSinceLastDone": {
+            "id": "62befcd0464af185dd56205e",
+            "sentAt": "2022-07-01T13:55:24.000Z",
+            "createdAt": "2022-07-01T13:55:29.242Z"
+          },
+          "assignedUsers": ,
+          "assignedTeams": ,
+          "firstResponse": {
+            "createdByTeams": ,
+            "assignedTeams": ,
+            "assignedUsers":
+          },
+          "firstResponseSinceLastDone": {
+            "createdByTeams": ,
+            "assignedTeams": ,
+            "assignedUsers":
+          },
+          "lastResponse": {
+            "createdByTeams": ,
+            "assignedTeams": ,
+            "assignedUsers":
+          },
+          "firstDone": {
+            "createdByTeams": ,
+            "assignedTeams": ,
+            "assignedUsers":
+          },
+          "lastDone": {
+            "createdByTeams": ,
+            "assignedTeams": ,
+            "assignedUsers":
+          },
+          "direction": "in",
+          "lastMessageDirection": "in",
+          "outboundMessageCount": 0,
+          "inboundMessageCount": 1,
+          "rev": 4,
+          "priority": 3,
+          "roleGroupVersions": ,
+          "accessOverride": ,
+          "sla": {
+            "name": "Test SLA",
+            "version": 1,
+            "matchedAt": "2022-07-01T13:55:30.450Z",
+            "metrics": {
+              "firstResponse": {
+                "breachAt": "2022-07-01T15:05:00.000Z"
+              }
+            },
+            "breach": {
+              "metric": "firstResponse",
+              "at": "2022-07-01T15:05:00.000Z"
+            },
+            "breached": false,
+            "status": "pending",
+            "summary": {
+              "firstBreachAt": "2022-07-01T15:05:00.000Z"
+            }
+          },
+          "assistant": {
+            "fac": {
+              "reasons":
+            },
+            "assistantId":
+          },
+          "phase": "active"
+        },
+        "relationships": {
+          "messages": {
+            "links": {
+              "self": "/v1/conversations/62befcd1febcf9618835dac9/messages"
+            }
+          },
+          "org": {
+            "links": {
+              "self": "/v1/orgs/61a7fbd1cc534fe8759ee230"
+            },
+            "data": {
+              "type": "org",
+              "id": "61a7fbd1cc534fe8759ee230"
+            }
+          },
+          "customer": {
+            "data": {
+              "type": "customer",
+              "id": "62850745ab9a425723350c77"
+            },
+            "links": {
+              "self": "/v1/customers/62850745ab9a425723350c77"
+            }
+          },
+          "sla": {
+            "data": {
+              "type": "sla",
+              "id": "62befb67f9be346227f1fadd"
+            },
+            "links": {
+              "self": "/v1/slas/62befb67f9be346227f1fadd"
+            }
+          },
+          "slaVersion": {
+            "data": {
+              "type": "sla_version",
+              "id": "62befbee471d834bd2553043"
+            }
+          },
+          "queue": {
+            "data": {
+              "type": "queue",
+              "id": "61a7fbde376b4f001426f0f4"
+            },
+            "links": {
+              "self": "/v1/routing/queues/61a7fbde376b4f001426f0f4"
+            }
+          },
+          "brand": {
+            "data": {
+              "type": "brand",
+              "id": "61a7fbd918a19515a0fbf06c"
+            },
+            "links": {
+              "self": "/v1/brands/61a7fbd918a19515a0fbf06c"
+            }
+          }
+        },
+        "links": {
+          "self": "/v1/conversations/62befcd1febcf9618835dac9"
+        }
+      },
+      "createdAt": "2022-07-01T13:55:30.473Z",
+      "changes": {
+        "attributes": {
+          "updatedAt": {
+            "op": "replace",
+            "before": "2022-07-01T13:55:29.629Z",
+            "after": "2022-07-01T13:55:30.460Z"
+          },
+          "rev": {
+            "op": "replace",
+            "before": 3,
+            "after": 4
+          },
+          "sla": {
+            "op": "add",
+            "before": null,
+            "after": {
+              "name": "Test SLA",
+              "version": 1,
+              "matchedAt": "2022-07-01T13:55:30.450Z",
+              "metrics": {
+                "firstResponse": {
+                  "breachAt": "2022-07-01T15:05:00.000Z"
+                }
+              },
+              "breach": {
+                "metric": "firstResponse",
+                "at": "2022-07-01T15:05:00.000Z"
+              },
+              "breached": false,
+              "status": "pending",
+              "summary": {
+                "firstBreachAt": "2022-07-01T15:05:00.000Z"
+              }
+            }
+          }
+        },
+        "relationships": {
+          "sla": {
+            "op": "add",
+            "before": null,
+            "after": {
+              "data": {
+                "type": "sla",
+                "id": "62befb67f9be346227f1fadd"
+              },
+              "links": {
+                "self": "/v1/slas/62befb67f9be346227f1fadd"
+              }
+            }
+          },
+          "slaVersion": {
+            "op": "add",
+            "before": null,
+            "after": {
+              "data": {
+                "type": "sla_version",
+                "id": "62befbee471d834bd2553043"
+              }
+            }
+          },
+          "queue": {
+            "op": "add",
+            "before": null,
+            "after": {
+              "data": {
+                "type": "queue",
+                "id": "61a7fbde376b4f001426f0f4"
+              },
+              "links": {
+                "self": "/v1/routing/queues/61a7fbde376b4f001426f0f4"
+              }
+            }
+          }
+        }
+      },
+      "persist": true,
+      "client": "routing-worker"
+    },
+    "publishedAt": "2022-07-01T13:55:30.473Z",
+    "version": 3
+  },
+  "producer": "SNSEventProducer"
+}
