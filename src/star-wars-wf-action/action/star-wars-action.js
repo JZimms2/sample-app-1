@@ -1,10 +1,13 @@
 export default {
-    name: "Star Wars Character Search",
-    // This site can be used to generate a quick webhook to test outgoing data. Just visit and include the generated GUID in the url
-    url: "https://webhook.site/",
-    headers: [{
-      name: "x-outbound-webhook-origin",
-      value: "kustomer"
-    }],
-    events: ["kustomer.conversation.create", "kustomer.conversation.update"]
+    "actions":
+    [{
+    "name": "kustomer.app.starwars.search.people",
+    "description": "Star Wars Character Searcher",
+    "type": "rest_api", // WF Actions are ALWAYS REST API actions
+    "appSettings": {
+      "authToken": {
+          "key": "starwars.default.authToken" // Stored in separate folder labeled settings in the App Settings property. More on this here: https://developer.kustomer.com/kustomer-apps-platform/docs/app-settings
+      }
+    }
+}]
 }

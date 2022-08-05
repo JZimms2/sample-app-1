@@ -1,8 +1,9 @@
 import Action from './action'
+import KView from '../my-first-advanced-kview-app/kviews/my-first-cardjscard-kview'
 
 export default {
     "app": "star_wars_character_finder",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "title": "Star Wars People Search",
     "settings": {
         "default": {
@@ -75,6 +76,6 @@ export default {
         },
         "additionalProperties": false
       }
-    }],
+    }]
 
   }
